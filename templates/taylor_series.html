@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+<body>
+    <div class="display">
+        <img src="{{ image }}" alt="generated graph will go here">
+    </div>
+    <div class="controls">
+        <form action="/results" method="get">
+            <label for="expr">Expression</label>
+            <input type="text" id="expr" name="expr">
+            <input type="submit" value="Generate Graph">
+        </form>
+    </div>
+</body>
